@@ -51,4 +51,5 @@ function myChk(callback) {
   callback();
 }
 
-myChk(() => console.log('콜백함수'));
+const test11 = () => console.log('콜백함수');
+myChk(test11);

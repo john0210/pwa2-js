@@ -9,7 +9,8 @@
             "type": "node",
             "request": "launch",
             "name": "js Debugging",
-            "program": "${file}"
+            "program": "${file}",
+            "console": "integratedTerminal"
         }
     ]
 }
