@@ -192,3 +192,4 @@ const num2 = arr20[1];
 
 const [num3, num4] = arr20;
 console.log(num3, num4);
+
