@@ -3,7 +3,6 @@ function test() {
   alert('테스트');
 }
 
-
 // 프로퍼티 리스너(Property Listener)
 // 레거시코드 등 제외하고 잘 안씀
 // 동일한 이벤트를 여러 번 사용 불가
