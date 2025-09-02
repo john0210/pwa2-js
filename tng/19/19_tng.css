@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btnContainer {
+  height: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.btnContainer form {
+  display: inline;
+}
+
+.btnContainer > form > #urlinput {
+  display: inline;
+}
+
+.btnContainer > #btn {
+  display: inline;
+  width: 70px;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.container .image-contents {
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  /* row-gap: 10px; */
+  gap : 20px;
+}
+/* 
+.container .image-contents > img {
+  width: 400px;
+  height: auto;
+} */

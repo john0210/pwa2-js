@@ -1,4 +1,4 @@
-const url = 'https://picsum.photos/v2/list?page=1&limit=10';
+let url = 'https://picsum.photos/v2/list?page=1&limit=10';
 
 axios.get(url)
 .then(response => {
